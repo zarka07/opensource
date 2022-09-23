@@ -1,67 +1,35 @@
 body{
   background-image: url(background.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#draggable{
+  width: 95%;
+  height: 95%;
+  position: relative;
+  border:6px solid yellow;
+  background-color: yellow;
+  opacity: .8;
   display: flex;
-  align-items:center;
-  justify-content:space-around;
-}
-.container{
-  width: 40%;
-  min-height:100px;
-  height: auto;
-  border: 4px solid greenyellow;
-  background-color: lightgray;
-  opacity: .7;
-  display:flex;
-  justify-content:center;
   align-items: center;
-  box-sizing: border-box;
-  padding:20px;
-}
-.container1{
-	width: 40%;
-  min-height:100px;
-  height: auto;
-  border: 4px solid greenyellow;
-  background-color: lightgray;
-  opacity: .7;
-  /* display:list-item; */
-  justify-content:center;
-  align-items: center;
-  box-sizing: border-box;
-  padding:20px;
-  margin:10px;
-}
-.container2{
-	width: 40%;
-  height: 95vh;
-  border: 4px solid greenyellow;
-  background-color: lightgray;
-  opacity: .7;
-  display:flex;
-  justify-content:center;
-  align-items: top;
-  box-sizing: border-box;
+  justify-content: center
 }
 
-.example-draggable {
-  background-color: #4AAE9B;
-  font-weight: normal;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 10px;
-  /* width:200px; */
-  height:30px;
-  border:lightseagreen 2px;
-  border-radius: 4px;
+.widget-text {
 }
 
-.example-dropzone {
-  background-color: #6DB65B;
-  flex-basis: 100%;
-  flex-grow: 1;
-  height:auto;
-  padding:20px;
+#grid-view-1 {
+  width: 80%;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+#grid-view-2 {
+  width: 60%;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid gray;
 }

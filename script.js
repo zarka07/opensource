@@ -2,6 +2,7 @@ function onDragStart(event) {
   event
     .dataTransfer
     .setData('text/plain', event.target.id);
+    console.log(event.clientX+' '+event.clientY)
   // event
   //   .currentTarget
   //   .style
@@ -22,7 +23,9 @@ function onDrop(event) {
   event
     .dataTransfer
     .clearData();
-    console.log(event)
+    draggableElement.style.left = 100+'px'
+    draggableElement.style.right = 100+'px'
+    console.log(event.clientX+' '+event.clientY)
 }
 
 

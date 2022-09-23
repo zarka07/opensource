@@ -4,46 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+   
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="class.canvas.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="container1">
-            <div id="draggable-1" draggable="true" class="example-draggable" ondragstart="onDragStart(event)">
-                draggable 1
-            </div>
-            <div id="draggable-2" draggable="true" class="example-draggable" ondragstart="onDragStart(event)">
-                draggable 2
-            </div>
-            <div id="draggable-3" draggable="true" class="example-draggable" ondragstart="onDragStart(event)">
-                draggable 3
-            </div>
-
+    <div id="grid-view-1">
+        <div id="draggable" class="ui-widget-content">
+          <p class="widget-text">Drag me1</p>
         </div>
-        <div class="container1">
-            <div id="draggable-4" draggable="true" class="example-draggable" ondragstart="onDragStart(event)">
-                draggable 4
-            </div>
-            <div id="draggable-5" draggable="true" class="example-draggable" ondragstart="onDragStart(event)">
-                draggable 5
-            </div>
-            <div id="draggable-6" draggable="true" class="example-draggable" ondragstart="onDragStart(event)">
-                draggable 6
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container2">
-        <div class="example-dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
-            dropzone
-        </div>
-    </div>
+      </div>
 </body>
 
 </html>
